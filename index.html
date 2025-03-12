@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" class="calculator-screen" placeholder="0" disabled />
+        <div class="buttons">
+            <!-- Number buttons in the left block -->
+            <div class="numbers">
+                <button class="btn" value="7">7</button>
+                <button class="btn" value="8">8</button>
+                <button class="btn" value="9">9</button>
+                <button class="btn" value="4">4</button>
+                <button class="btn" value="5">5</button>
+                <button class="btn" value="6">6</button>
+                <button class="btn" value="1">1</button>
+                <button class="btn" value="2">2</button>
+                <button class="btn" value="3">3</button>
+                <button class="btn" value="0">0</button>
+                <button class="btn" value=".">.</button>
+                <button class="btn" id="clear">AC</button>
+            </div>
+
+            <!-- Operation buttons on the right block -->
+            <div class="operators">
+                <button class="btn" value="+">+</button>
+                <button class="btn" value="-">-</button>
+                <button class="btn" value="*">&#215;</button>
+                <button class="btn" value="/">&#247;</button>
+                <button class="btn" id="square">x²</button>
+                <button class="btn" value="%">%</button>
+                <button class="btn" id="delete">DEL</button>
+                <button class="btn" id="equal">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
